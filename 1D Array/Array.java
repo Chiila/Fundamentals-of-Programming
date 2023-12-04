@@ -4,7 +4,7 @@ public class Array {
     public static void Prob1() {
 /*Write a Java program that initializes an array of integers with some values and
 then finds the sum of all the values in the array*/
-	int[] num1 ={12,23,24,13,40};
+	int[] num1 ={11,24,69,3,80};
     int sum = 0;
    for(int i = 0; i<num1.length; i++ ){        
       sum = sum + num1[i];
@@ -15,7 +15,7 @@ then finds the sum of all the values in the array*/
 	public static void Prob2() {
 /*Write a Java program that initializes an array of strings with some values and then
 finds the length of the longest string in the array.*/
-	String[] num2 = {"Kurt", "Checker", "Armida", "KrazynesOverload", "sadsad"};	
+	String[] num2 = {"Cilla", "Irish", "Duday", "Cezzann", "Dyosa"};	
 	int len = 0;
 	int compare = num2[0].length();
 	String longest = "";
@@ -33,7 +33,7 @@ finds the length of the longest string in the array.*/
     public static void Prob3(){
 /*Write a Java program that initializes an array of integers with some values and
 then finds the smallest value in the array.*/      
-     int[]num3 = {100, 23, 50, 15, 40};
+     int[]num3 = {90, 13, 50, 25, 30};
      int temp = num3[0];
 
        for(int i = 0; i<num3.length; i++){
