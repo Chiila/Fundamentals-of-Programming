@@ -5,9 +5,9 @@ public class Arrays {
 	public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
      
-		String email[] = {"ace@gmail.com", "bogar@gmail.com","shesh@gmail.com"};
-		String username[] = {"ace","bogart","shesh"};
-		String password[] = {"ace123", "bogart123", "shesh123"};
+		String email[] = {"ganda@gmail.com", "dyosa@gmail.com","cute@gmail.com"};
+		String username[] = {"ganda","dyosa","cute"};
+		String password[] = {"gandaqsm", "dyosame", "cuteko"};
 		int index = sc.nextInt();
 		
 		if(index == 0) {
